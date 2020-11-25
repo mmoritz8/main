@@ -1,14 +1,31 @@
 {
-  "name": "main",
-  "version": "1.0.0",
-  "description": "Self-updating readme.md for my portfolio",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "mustache": "^4.0.1"
-  }
+"name": "madeline",
+"version": "1.0.0",
+"description": "A dynamic README.md for your GitHub Profile, using Actions, Javascript and Mustache.",
+"main": "index.js",
+"scripts": {
+"test": "echo \"Error: no test specified\" && exit 1"
+},
+"repository": {
+"type": "git",
+"url": "https://github.com/mmoritz8"
+},
+"keywords": [
+"readme.md",
+"github",
+"actions",
+"dynamic",
+"javascript"
+],
+"author": "Thomas Guibert",
+"license": "ISC",
+"bugs": {
+"homepage": "https://github.com/mmoritz8e",
+"dependencies": {
+"dotenv": "^8.2.0",
+"mustache": "^4.0.1",
+"node-fetch": "^2.6.1",
+"puppeteer": "^5.1.0"
+}
+}
 }
